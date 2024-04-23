@@ -30,9 +30,9 @@ async def get_current_user():
     return {"message": "This is current user."}
 
 
-@app.get("/users/{user_id}")
-async def user_id(user_id: str):
-    return {"user_id": user_id}
+# @app.get("/users/{user_id}")
+# async def user_id(user_id: str):
+#     return {"user_id": user_id}
 
 
 class FoodEnum(str, Enum):
